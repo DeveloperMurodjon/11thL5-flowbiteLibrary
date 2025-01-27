@@ -11,6 +11,6 @@ function isRegistered() {
 window.addEventListener("load", function () {
   const is = isRegistered();
   if (!is) {
-    window.location.pathname = "/src/pages/register.html";
+    this.window.location.pathname = "/src/pages/register.html";
   }
 });
